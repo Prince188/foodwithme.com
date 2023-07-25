@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-color: black;
+    padding: 0.5rem;
+    height: fit-content;
+    display: flex;
+}
+
+.nav {
+    display: flex;
+    background-color: #121212;
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    width: 300px;
+    height: 250px;
+    font-size: 1.2rem;
+    justify-content: space-between;
+}
+
+.col {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav-option a {
+    text-decoration: none;
+    color: white;
+    margin-left: 1rem;
+}
+
+
+.nav-option {
+    align-items: center;
+    display: flex;
+    line-height: 2.5rem;
+}
+
+.nav-option:hover {
+    color: red;
+}
+
+.nav-option:hover a {
+    color: red;
+}
+
+/* ========== */
+/* OFFER SECTION */
+/* ========== */
+
+.offer {
+    display: flex;
+    flex-direction: column;
+    background-color: #121212;
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    width: 300px;
+    height: 250px;
+    font-size: 1.2rem;
+    flex: 1;
+    margin-left: 0.5rem;
+}
+
+.offer-option {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    line-height: 2.5rem;
+}
+
+.offer-option:hover {
+    color: red;
+}
+
+.offer-option:hover a {
+    color: red;
+}
+
+.offer-option a {
+    text-decoration: none;
+    color: white;
+    margin-left: 1rem;
+}
+
+.offer-pics {
+    aspect-ratio: 3/4;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    display: flex;
+    overflow: auto;
+    width: 95%;
+    /* height: 200px; */
+    flex-wrap: nowrap;
+}
+
+.offer-pics::-webkit-scrollbar {
+    display: none;
+}
+
+
+.offer img {
+    width: 250px;
+    margin: 0.5rem;
+}
+
+/* ================= */
+/* food area */
+/* ================= */
+
+.container {
+    flex: 1;
+    background-color: black;
+    height: 100vh;
+    padding: 0.5rem;
+}
+
+.food {
+    background-color: #121212;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    height: 100vh;
+}
+
+.foodtit{
+    color: white;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.food-pics{
+    width: 98%;
+    display: flex;
+    margin: 1rem;
+    overflow: auto;
+}
+.food-pics::-webkit-scrollbar{
+    display: none;
+}
+
+.food-pics img{
+    border-radius: 50%;
+    margin: 0.5rem;
+    width: 150px;
+    aspect-ratio: 1;
+    box-shadow: 0 0 5px #fff;
+}
+
+.fname{
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
